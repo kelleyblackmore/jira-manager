@@ -1,0 +1,30 @@
+{
+  "updates": [
+    {
+      "issue_key": "PROJ-123",
+      "summary": "Updated summary for the issue",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Updated description with more details"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "issue_key": "PROJ-124",
+      "labels": ["updated", "in-progress"],
+      "priority": {
+        "name": "Medium"
+      }
+    }
+  ]
+}

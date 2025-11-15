@@ -1,0 +1,11 @@
+{
+  "project_key": "PROJ",
+  "summary": "Implement login API endpoint",
+  "issue_type": "Story",
+  "description": "Create REST API endpoint for user login with email and password authentication",
+  "epic_key": "PROJ-1",
+  "labels": ["backend", "api"],
+  "priority": {
+    "name": "High"
+  }
+}

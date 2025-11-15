@@ -1,0 +1,11 @@
+{
+  "project_key": "PROJ",
+  "summary": "User Authentication Feature",
+  "issue_type": "Epic",
+  "epic_name": "AUTH-001",
+  "description": "Implement user authentication system with login, logout, and session management",
+  "labels": ["authentication", "security"],
+  "priority": {
+    "name": "High"
+  }
+}
