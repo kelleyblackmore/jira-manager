@@ -2,6 +2,8 @@
 
 A Python tool for interacting with the Jira API using only the `requests` library. This tool enables automated creation and management of Jira issues (Features/Epics, Stories, Tasks, etc.) through simple JSON files.
 
+> **New to Jira Manager?** Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in 5 minutes!
+
 ## Features
 
 - 🚀 **Simple API Client**: Pure Python implementation using only the `requests` library
@@ -256,6 +258,9 @@ See the `examples/` directory for complete examples:
 - `create_story.json` - Create a single story
 - `bulk_create.json` - Create multiple issues at once
 - `update_issues.json` - Update existing issues
+- `link_stories_to_epic.json` - Link stories to an epic
+
+> **Want detailed workflow examples?** See [WORKFLOWS.md](WORKFLOWS.md) for step-by-step guides on common workflows including CI/CD integration.
 - `link_stories_to_epic.json` - Link stories to an epic
 
 ## Automation Workflows
