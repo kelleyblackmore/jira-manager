@@ -1,0 +1,33 @@
+{
+  "issues": [
+    {
+      "project_key": "PROJ",
+      "summary": "Payment Processing Feature",
+      "issue_type": "Epic",
+      "epic_name": "PAY-001",
+      "description": "Implement payment processing with multiple payment providers",
+      "labels": ["payment", "feature"]
+    },
+    {
+      "project_key": "PROJ",
+      "summary": "Integrate Stripe payment gateway",
+      "issue_type": "Story",
+      "description": "Add Stripe integration for credit card payments",
+      "labels": ["payment", "stripe", "backend"]
+    },
+    {
+      "project_key": "PROJ",
+      "summary": "Add PayPal payment option",
+      "issue_type": "Story",
+      "description": "Integrate PayPal as an alternative payment method",
+      "labels": ["payment", "paypal", "backend"]
+    },
+    {
+      "project_key": "PROJ",
+      "summary": "Create payment confirmation page",
+      "issue_type": "Story",
+      "description": "Design and implement payment confirmation UI",
+      "labels": ["payment", "frontend", "ui"]
+    }
+  ]
+}
